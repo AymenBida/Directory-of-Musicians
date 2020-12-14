@@ -2,8 +2,20 @@
   background-color: #F15625;
 }
 
+.bg-mygray {
+  background-color: #706d7e;
+}
+
+.bg-myblue {
+  background-color: #1c95bd;
+}
+
 .text-myred {
   color: #F15625;
+}
+
+.text-mygray {
+  color: #706d7e;
 }
 
 .icon {
@@ -14,13 +26,55 @@
   text-decoration: none;
 }
 
+.square-200px {
+  min-height: 200px;
+  min-width: 200px;
+  height: auto;
+  width: auto;
+}
+
+.bg-middle {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.height-fit {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.w-30px {
+  width: 30px;
+}
+
+#lot-of-people {
+  background-image: url(../assets/images/lot-of-people.jpg);
+}
+
+#contact {
+  background-image: url(../assets/images/contact2.jpg);
+}
+
+#anytime {
+  background-image: url(../assets/images/smartphone.jpg);
+}
+
 #main-container {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.493)), to(rgba(0, 0, 0, 0.493))), url(/assets/images/background.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(/assets/images/background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.493)), to(rgba(0, 0, 0, 0.493))), url(../assets/images/background.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(../assets/images/background.png);
   padding: 10em 0;
 }
 
 #search-form {
   background-color: rgba(255, 255, 255, 0.753);
+}
+
+@media (min-width: 1024px) {
+  .square-200px {
+    height: 300px;
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
