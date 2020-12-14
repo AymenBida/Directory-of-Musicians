@@ -27,6 +27,10 @@ ul {
   color: #706d7e;
 }
 
+.text-transparent {
+  color: transparent;
+}
+
 .icon {
   height: 1.5em;
 }
@@ -72,6 +76,10 @@ ul {
 
 #anytime {
   background-image: url(../assets/images/smartphone.jpg);
+}
+
+#main-container-2 {
+  padding: 10em 0;
 }
 
 #main-container {
