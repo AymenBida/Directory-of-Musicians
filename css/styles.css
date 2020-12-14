@@ -99,12 +99,24 @@ ul {
   .w-md-10 {
     width: 10%;
   }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-25 {
+    width: 25% !important;
+  }
 }
 
 @media (min-width: 1024px) {
   .square-200px {
     height: 300px;
     width: 300px;
+  }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .w-lg-12 {
+    width: 12.5% !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
