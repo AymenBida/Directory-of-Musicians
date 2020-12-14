@@ -45,17 +45,21 @@
     </nav>
   </header>
   <main>
-    <div id="main-container" class="container-fluid py-5">
-      <form action="list.html" id="search-form" class="container rounded p-5" method="GET">
+    <div id="main-container" class="container-fluid d-flex flex-column">
+      <form action="list.html" id="search-form" class="container rounded p-5 mb-3" method="GET">
         <div>
           <label class="fw-bold mb-2" for="search">Search for your Musician here :</label>
           <div class="d-flex">
             <input class="rounded-start flex-grow-1 border border-secondary" type="text"
-              placeholder="type the name or last-name of the musician">
+              placeholder="type the name of the musician here">
             <button type="button" class="rounded-end border border-danger bg-myred text-white py-2 px-4">Search</button>
           </div>
         </div>
       </form>
+      <a type="button" class="mx-auto border rounded p-2 px-4 no-deco text-dark bg-light" href="#how-it-works">How it works</a>
+    </div>
+    <div id="how-it-works" class="container-fluid bg-light">
+      
     </div>
   </main>
   <footer>

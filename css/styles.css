@@ -6,14 +6,14 @@
   height: 1.5em;
 }
 
-.color-white {
-  color: white;
+.no-deco {
+  text-decoration: none;
 }
 
 #main-container {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.493)), to(rgba(0, 0, 0, 0.493))), url(/assets/images/background.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(/assets/images/background.png);
-  height: 600px;
+  padding: 10em 0;
 }
 
 #search-form {

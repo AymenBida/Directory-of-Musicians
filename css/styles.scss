@@ -8,15 +8,16 @@ $my-red : #F15625;
   height: 1.5em;
 }
 
-.color-white {
-  color: white;
+.no-deco {
+  text-decoration: none;
 }
+
 
 #main-container {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),
     url(/assets/images/background.png);
-  height: 600px;
+  padding: 10em 0;
 }
 
 #search-form {
