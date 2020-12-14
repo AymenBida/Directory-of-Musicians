@@ -3,6 +3,11 @@ $my-yellow : #FBE207;
 $my-blue : #1c95bd;
 $my-gray : rgb(112, 109, 126);
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .bg-myred {
   background-color: $my-red;
 }
@@ -15,6 +20,10 @@ $my-gray : rgb(112, 109, 126);
   background-color: $my-blue;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .text-myred {
   color: $my-red;
 }
@@ -25,6 +34,10 @@ $my-gray : rgb(112, 109, 126);
 
 .icon {
   height: 1.5em;
+}
+
+.big-icon {
+  height: 2em;
 }
 
 .no-deco {

@@ -1,3 +1,8 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .bg-myred {
   background-color: #F15625;
 }
@@ -10,6 +15,10 @@
   background-color: #1c95bd;
 }
 
+.bg-black {
+  background-color: black;
+}
+
 .text-myred {
   color: #F15625;
 }
@@ -20,6 +29,10 @@
 
 .icon {
   height: 1.5em;
+}
+
+.big-icon {
+  height: 2em;
 }
 
 .no-deco {
