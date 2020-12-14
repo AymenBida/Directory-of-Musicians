@@ -84,6 +84,15 @@ ul {
   background-color: rgba(255, 255, 255, 0.753);
 }
 
+@media (min-width: 768px) {
+  .w-md-45 {
+    width: 45%;
+  }
+  .w-md-10 {
+    width: 10%;
+  }
+}
+
 @media (min-width: 1024px) {
   .square-200px {
     height: 300px;
