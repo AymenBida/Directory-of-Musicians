@@ -17,8 +17,9 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-myred px-2">
       <div class="container-fluid">
-        <a class="navbar-brand text-white font-weight-bold fs-4" href="#"><img class="icon"
-            src="assets/images/negative-logo.png" alt=""> Directory of Musicians</a>
+        <a class="navbar-brand text-white fw-bold fs-4" href="#">
+          <img class="icon fx-2" src="assets/images/negative-logo.png" alt=""> Directory of Musicians
+        </a>
         <button class="navbar-toggler border" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -26,17 +27,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
-            <li class="nav-item">
-              <a class="nav-link active text-white font-weight-bold" aria-current="page" href="#">Home</a>
+            <li class="nav-item px-2">
+              <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="#">Search</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white fw-bold" href="#">Search</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="#">About</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white fw-bold" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="#">More</a>
+            <li class="nav-item px-2">
+              <a class="nav-link text-white fw-bold" href="#">More</a>
             </li>
           </ul>
         </div>
@@ -44,7 +45,18 @@
     </nav>
   </header>
   <main>
-
+    <div id="main-container" class="container-fluid py-5">
+      <form action="list.html" id="search-form" class="container rounded p-5" method="GET">
+        <div>
+          <label class="fw-bold mb-2" for="search">Search for your Musician here :</label>
+          <div class="d-flex">
+            <input class="rounded-start flex-grow-1 border border-secondary" type="text"
+              placeholder="type the name or last-name of the musician">
+            <button type="button" class="rounded-end border border-danger bg-myred text-white py-2 px-4">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
   </main>
   <footer>
 

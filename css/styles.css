@@ -9,4 +9,14 @@
 .color-white {
   color: white;
 }
+
+#main-container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.493)), to(rgba(0, 0, 0, 0.493))), url(/assets/images/background.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url(/assets/images/background.png);
+  height: 600px;
+}
+
+#search-form {
+  background-color: rgba(255, 255, 255, 0.753);
+}
 /*# sourceMappingURL=styles.css.map */

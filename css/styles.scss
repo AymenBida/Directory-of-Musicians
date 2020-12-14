@@ -11,3 +11,14 @@ $my-red : #F15625;
 .color-white {
   color: white;
 }
+
+#main-container {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),
+    url(/assets/images/background.png);
+  height: 600px;
+}
+
+#search-form {
+  background-color: rgba(255, 255, 255, 0.753);
+}
