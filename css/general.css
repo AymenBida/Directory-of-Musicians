@@ -27,6 +27,36 @@ ul {
   text-align: justify;
 }
 
+.hover-animate {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.hover-animate:hover {
+  -webkit-transform: translate(0, -3px);
+          transform: translate(0, -3px);
+}
+
+.hover-myred {
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+
+.hover-myred:hover {
+  color: #f0a088 !important;
+}
+
+.hover-shadow {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.hover-shadow:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
+          box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
+  background-color: #ffffff23;
+}
+
 .text-myred {
   color: #F15625;
 }

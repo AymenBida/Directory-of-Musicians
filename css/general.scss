@@ -33,6 +33,31 @@ $black-gradient: linear-gradient(transparent, black 99%);
   text-align: justify;
 }
 
+.hover-animate {
+  transition: all 400ms;
+}
+
+.hover-animate:hover {
+  transform: translate(0, -3px);
+}
+
+.hover-myred {
+  transition: all 0s;
+}
+
+.hover-myred:hover {
+  color: #f0a088 !important;
+}
+
+.hover-shadow {
+  transition: all 400ms;
+}
+
+.hover-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
+  background-color: #ffffff23;
+}
+
 .text-myred {
   color: $my-red;
 }
