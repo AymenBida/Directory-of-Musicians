@@ -3,8 +3,8 @@ ul {
   padding: 0;
 }
 
-$my-red : #F15625;
-$my-yellow : #FBE207;
+$my-red : #f15625;
+$my-yellow : #fbe207;
 $my-blue : #1c95bd;
 $my-gray : rgb(112, 109, 126);
 $black-gradient: linear-gradient(transparent, black 99%);
@@ -26,7 +26,7 @@ $black-gradient: linear-gradient(transparent, black 99%);
 }
 
 .bg-lightgray {
-  background-color: rgba(228, 228, 228, 0.753);;
+  background-color: rgba(228, 228, 228, 0.753);
 }
 
 .justify-text {
@@ -95,10 +95,6 @@ $black-gradient: linear-gradient(transparent, black 99%);
   background-size: cover;
 }
 
-.height-fit {
-  min-height: fit-content;
-}
-
 .w-30px {
   width: 30px;
 }
@@ -115,7 +111,7 @@ $black-gradient: linear-gradient(transparent, black 99%);
   .w-md-10 {
     width: 10%;
   }
-
+  
   .w-md-50 {
     width: 50% !important;
   }

@@ -4,7 +4,7 @@ ul {
 }
 
 .bg-myred {
-  background-color: #F15625;
+  background-color: #f15625;
 }
 
 .bg-mygray {
@@ -58,7 +58,7 @@ ul {
 }
 
 .text-myred {
-  color: #F15625;
+  color: #f15625;
 }
 
 .text-mygray {
@@ -92,12 +92,6 @@ ul {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.height-fit {
-  min-height: -webkit-fit-content;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
 }
 
 .w-30px {
