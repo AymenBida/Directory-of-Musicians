@@ -7,6 +7,7 @@ $my-red : #F15625;
 $my-yellow : #FBE207;
 $my-blue : #1c95bd;
 $my-gray : rgb(112, 109, 126);
+$black-gradient: linear-gradient(transparent, black 99%);
 
 .bg-myred {
   background-color: $my-red;
@@ -69,6 +70,10 @@ $my-gray : rgb(112, 109, 126);
   width: 30px;
 }
 
+.h-400px {
+  height: 400px;
+}
+
 @media (min-width: 768px) {
   .w-md-45 {
     width: 45%;
@@ -93,6 +98,10 @@ $my-gray : rgb(112, 109, 126);
     width: 300px;
   }
 
+  .w-lg-33 {
+    width: 33.333% !important;
+  }
+  
   .w-lg-25 {
     width: 25% !important;
   }

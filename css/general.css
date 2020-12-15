@@ -66,6 +66,10 @@ ul {
   width: 30px;
 }
 
+.h-400px {
+  height: 400px;
+}
+
 @media (min-width: 768px) {
   .w-md-45 {
     width: 45%;
@@ -85,6 +89,9 @@ ul {
   .square-200px {
     height: 300px;
     width: 300px;
+  }
+  .w-lg-33 {
+    width: 33.333% !important;
   }
   .w-lg-25 {
     width: 25% !important;

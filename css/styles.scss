@@ -1,3 +1,5 @@
+$black-gradient: linear-gradient(transparent, rgba(0, 0, 0, 0.726) 99%);
+
 #lot-of-people {
   background-image: url(../assets/images/lot-of-people.jpg);
 }
@@ -11,7 +13,7 @@
 }
 
 #main-container-2 {
-  padding: 10em 0;
+  padding: 5em 0;
 }
 
 #main-container {
@@ -22,5 +24,25 @@
 }
 
 #search-form {
-  background-color: rgba(255, 255, 255, 0.753);
+  background-color: rgba(228, 228, 228, 0.753);
+}
+
+#aziza {
+  background-image: $black-gradient, url(../assets/images/aziza.jpg);
+}
+
+#john {
+  background-image: $black-gradient, url(../assets/images/john-p.jpg);
+}
+
+#mikael {
+  background-image: $black-gradient, url(../assets/images/mikeal.jpg);
+}
+
+#mike {
+  background-image: $black-gradient, url(../assets/images/mike.jpeg);
+}
+
+#tigran {
+  background-image: $black-gradient, url(../assets/images/tigran.jpg);
 }
