@@ -34,7 +34,7 @@ ul {
 
 .hover-animate:hover {
   -webkit-transform: translate(0, -3px);
-          transform: translate(0, -3px);
+  transform: translate(0, -3px);
 }
 
 .hover-myred {
@@ -53,7 +53,7 @@ ul {
 
 .hover-shadow:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
-          box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
+  box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
   background-color: #ffffff23;
 }
 
@@ -106,12 +106,15 @@ ul {
   .w-md-45 {
     width: 45%;
   }
+
   .w-md-10 {
     width: 10%;
   }
+
   .w-md-50 {
     width: 50% !important;
   }
+
   .w-md-25 {
     width: 25% !important;
   }
@@ -122,14 +125,18 @@ ul {
     height: 300px;
     width: 300px;
   }
+
   .w-lg-33 {
     width: 33.333% !important;
   }
+
   .w-lg-25 {
     width: 25% !important;
   }
+
   .w-lg-12 {
     width: 12.5% !important;
   }
 }
+
 /*# sourceMappingURL=general.css.map */
