@@ -6,7 +6,7 @@ The requirements for this project is to create 3 pages, a main page, a search re
 
 I used 2 `.scss` files : one for general classes that I can use in any project and one for project specific classes.
 
-### screenshot
+### Screenshot
 
 ![screenshot](./assets/images/screenshot.jpg)
 
