@@ -48,85 +48,73 @@
 
   <main>
     <div id="main-container-2" class="container-fluid bg-light">
-      <form action="list.html" id="search-form" class="container-fluid rounded p-5 mb-3" method="GET">
-        <div class="container">
-          <p class="fw-bold mb-2">Filter by name, country, instrument and gender:</p>
-          <div class="d-flex flex-wrap">
-            <div class="d-flex flex-column flex-fill w-100 w-md-50 w-lg-25">
-              <label for="name">Name</label>
-              <input class="border border py-2 rounded-start" id="name" type="text" placeholder="Enter name here">
+      <div id="details-form" class="container rounded p-5 mb-3 bg-white shadow">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <h2 class="text-dark fw-bold mb-0">Mike Portnoy</h2>
+          <a href="#" class="btn btn-success text-white fw-bold mr-auto"><i class="fas fa-phone"></i> Call Now</a>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Country: <span class="fw-normal text-dark">U.S.A.</span></p>
             </div>
-            <div class="d-flex flex-column flex-fil w-100 w-md-50 w-lg-25">
-              <label for="country">Country</label>
-              <input class="border border py-2" id="country" type="text" placeholder="Enter country here">
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Gender: <span class="fw-normal text-dark">Male</span></p>
             </div>
-            <div class="d-flex flex-column flex-fill w-100 w-md-50 w-lg-25">
-              <label for="instrument">Instrument</label>
-              <input class="border border py-2" id="instrument" type="text" placeholder="Enter instrument here">
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Instrument: <span class="fw-normal text-dark">Drums</span></p>
             </div>
-            <div class="d-flex flex-column flex-fill w-50 w-md-25 w-lg-12">
-              <label for="gender">Gender</label>
-              <select name="gender" class="border border py-2" id="gender" type="text"
-                placeholder="Enter instrument here">
-                <option disabled selected value=""></option>
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-              </select>
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Style(s): <span class="fw-normal text-dark">Progressive
+                  metal</span>
+              </p>
             </div>
-            <div class="d-flex flex-column flex-fill w-50 w-md-25 w-lg-12">
-              <label class="text-transparent" for="nothing">-</label>
-              <button type="submit"
-                class="rounded-end border border-danger bg-myred text-white py-2 px-4">Search</button>
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Phone: <span class="fw-normal text-dark">123456789</span></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Website: <span class="fw-normal text-dark"><a
+                    href="http://mikeportnoy.com/">mikeportnoy.com</a></span></p>
             </div>
           </div>
         </div>
-      </form>
-
-
-    </div>
-    <div id="search-results" class="container-fluid">
-      <div class="container-fluid py-4">
-        <h2 class="text-dark text-center">Search Results found 5 musician(s).</h2>
-        <div class="py-4 d-flex flex-wrap justify-content-center">
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="aziza.html">
-              <div id="aziza" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Aziza Mustafa Zadeh</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="john.html">
-              <div id="john" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">John Petrucci</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="mikael.html">
-              <div id="mikael" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Mikael Åkerfeldt</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="mike.html">
-              <div id="mike" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Mike Portnoy</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="tigran.html">
-              <div id="tigran" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Tigran Hamasyan</h3>
-              </div>
-            </a>
-          </div>
-
+        </form>
+      </div>
+      <div class="container">
+        <p class="mb-1 justify-text">Michael Stephen Portnoy (born April 20, 1967) is an American musician and
+          songwriter who is the current drummer for the Neal Morse Band and supergroups Flying Colors, Transatlantic,
+          The Winery Dogs, Metal Allegiance and Sons of Apollo. Portnoy is primarily known as the former drummer,
+          backing vocalist, and a co-founder of the progressive metal band Dream Theater. In September 2010, Portnoy
+          announced his departure from Dream Theater after 25 years, with Mike Mangini taking his place as drummer of
+          the band. Since his departure, Portnoy has formed a variety of new bands and projects, including Adrenaline
+          Mob, Flying Colors, The Winery Dogs, Sons of Apollo, Metal Allegiance, and BPMD.</p>
+        <p class="justify-text">Portnoy was born April 20, 1967 and raised on Long Island in Long Beach, New York.
+          His father, Howard Portnoy (1940–2009), worked as a DJ at a local radio station. Mike and his father later
+          moved to Carmel-by-the-Sea, California, to work at KRML radio station after watching the 1971 film Play Misty
+          for Me. His mother died on November 16, 1984, when the private plane she was riding in, with her boyfriend,
+          crashed off the Atlantic City coastline.</p>
+        <div class="d-flex">
+          <a class="fs-2 no-deco text-dark bg-lightgray p-5 flex-fill text-uppercase text-center"
+            href="https://en.wikipedia.org/wiki/Mike_Portnoy">Click to see more details</a>
+        </div>
+        <div class="py-4">
+          <h2 class="text-center text-myred fw-bold mb-5"><i class="far fa-compass"></i> Map directions</h2>
+          <iframe class="d-block mx-auto mw-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24240.188910070177!2d-73.68606009994342!3d40.58523417811875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26ff6430184c9%3A0xd3936da1e33b9063!2sLong%20Beach%2C%20NY%2C%20USA!5e0!3m2!1sen!2stn!4v1608026625182!5m2!1sen!2stn"
+            width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
         </div>
       </div>
-
     </div>
   </main>
 

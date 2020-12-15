@@ -48,85 +48,72 @@
 
   <main>
     <div id="main-container-2" class="container-fluid bg-light">
-      <form action="list.html" id="search-form" class="container-fluid rounded p-5 mb-3" method="GET">
-        <div class="container">
-          <p class="fw-bold mb-2">Filter by name, country, instrument and gender:</p>
-          <div class="d-flex flex-wrap">
-            <div class="d-flex flex-column flex-fill w-100 w-md-50 w-lg-25">
-              <label for="name">Name</label>
-              <input class="border border py-2 rounded-start" id="name" type="text" placeholder="Enter name here">
+      <div id="details-form" class="container rounded p-5 mb-3 bg-white shadow">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <h2 class="text-dark fw-bold mb-0">Tigran Hamasyan</h2>
+          <a href="#" class="btn btn-success text-white fw-bold mr-auto"><i class="fas fa-phone"></i> Call Now</a>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Country: <span class="fw-normal text-dark">Armenia</span></p>
             </div>
-            <div class="d-flex flex-column flex-fil w-100 w-md-50 w-lg-25">
-              <label for="country">Country</label>
-              <input class="border border py-2" id="country" type="text" placeholder="Enter country here">
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Gender: <span class="fw-normal text-dark">Male</span></p>
             </div>
-            <div class="d-flex flex-column flex-fill w-100 w-md-50 w-lg-25">
-              <label for="instrument">Instrument</label>
-              <input class="border border py-2" id="instrument" type="text" placeholder="Enter instrument here">
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Instrument: <span class="fw-normal text-dark">Piano</span></p>
             </div>
-            <div class="d-flex flex-column flex-fill w-50 w-md-25 w-lg-12">
-              <label for="gender">Gender</label>
-              <select name="gender" class="border border py-2" id="gender" type="text"
-                placeholder="Enter instrument here">
-                <option disabled selected value=""></option>
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-              </select>
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Style(s): <span class="fw-normal text-dark">Jazz, Armenian
+                  folk</span>
+              </p>
             </div>
-            <div class="d-flex flex-column flex-fill w-50 w-md-25 w-lg-12">
-              <label class="text-transparent" for="nothing">-</label>
-              <button type="submit"
-                class="rounded-end border border-danger bg-myred text-white py-2 px-4">Search</button>
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Phone: <span class="fw-normal text-dark">123456789</span></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Website: <span class="fw-normal text-dark"><a
+                    href="http://www.tigranhamasyan.com/">tigranhamasyan.com</a></span></p>
             </div>
           </div>
         </div>
-      </form>
-
-
-    </div>
-    <div id="search-results" class="container-fluid">
-      <div class="container-fluid py-4">
-        <h2 class="text-dark text-center">Search Results found 5 musician(s).</h2>
-        <div class="py-4 d-flex flex-wrap justify-content-center">
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="aziza.html">
-              <div id="aziza" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Aziza Mustafa Zadeh</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="john.html">
-              <div id="john" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">John Petrucci</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="mikael.html">
-              <div id="mikael" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Mikael Åkerfeldt</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="mike.html">
-              <div id="mike" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Mike Portnoy</h3>
-              </div>
-            </a>
-          </div>
-          <div class="p-3 w-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="tigran.html">
-              <div id="tigran" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="text-white fw-bold fs-2">Tigran Hamasyan</h3>
-              </div>
-            </a>
-          </div>
-
-        </div>
+        </form>
       </div>
-
+      <div class="container">
+        <p class="mb-1 justify-text">Tigran Hamasyan (Armenian: Տիգրան Համասյան; born July 17, 1987) is an Armenian jazz
+          pianist. He plays mostly original compositions, which are strongly influenced by the Armenian folk tradition,
+          often using its scales and modalities. In addition to Tigran's folk influence, he is influenced by American
+          jazz traditions and to some extent, as on his album Red Hail, by progressive rock. His solo album A Fable
+          is most strongly influenced by Armenian folk music. Even on his most overt jazz compositions and renditions of
+          well-known jazz pieces, his improvisations often contain embellishments based on scales from Middle
+          Eastern/South Western Asian traditions.</p>
+        <p class="justify-text">Hamasyan was born in Gyumri, Armenia. His ancestors were from the Kars region. His
+          father was a jeweler and his mother designed clothes. At the age of three he began to play melodies on his
+          family's piano, and he went to a music school from the age of six. As a young child, he dreamed of being a
+          thrash metal guitarist.</p>
+        <div class="d-flex">
+          <a class="fs-2 no-deco text-dark bg-lightgray p-5 flex-fill text-uppercase text-center"
+            href="https://en.wikipedia.org/wiki/Tigran_Hamasyan">Click to see more details</a>
+        </div>
+        <div class="py-4">
+          <h2 class="text-center text-myred fw-bold mb-5"><i class="far fa-compass"></i> Map directions</h2>
+          <iframe class="d-block mx-auto mw-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96671.55026230603!2d43.77036588656033!3d40.78432312656733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041fb8b9b34fc9f%3A0x4f4bed0e45f99102!2sGyumri%2C%20Armenia!5e0!3m2!1sen!2stn!4v1608026958260!5m2!1sen!2stn"
+            width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+          </div>
+      </div>
     </div>
   </main>
 

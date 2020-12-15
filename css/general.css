@@ -23,6 +23,10 @@ ul {
   background-color: rgba(228, 228, 228, 0.753);
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .text-myred {
   color: #F15625;
 }

@@ -29,6 +29,10 @@ $black-gradient: linear-gradient(transparent, black 99%);
   background-color: rgba(228, 228, 228, 0.753);;
 }
 
+.justify-text {
+  text-align: justify;
+}
+
 .text-myred {
   color: $my-red;
 }
