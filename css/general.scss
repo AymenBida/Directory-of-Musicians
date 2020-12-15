@@ -25,6 +25,10 @@ $black-gradient: linear-gradient(transparent, black 99%);
   background-color: black;
 }
 
+.bg-lightgray {
+  background-color: rgba(228, 228, 228, 0.753);;
+}
+
 .text-myred {
   color: $my-red;
 }
@@ -101,7 +105,7 @@ $black-gradient: linear-gradient(transparent, black 99%);
   .w-lg-33 {
     width: 33.333% !important;
   }
-  
+
   .w-lg-25 {
     width: 25% !important;
   }

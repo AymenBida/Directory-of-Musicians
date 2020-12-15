@@ -19,6 +19,10 @@ ul {
   background-color: black;
 }
 
+.bg-lightgray {
+  background-color: rgba(228, 228, 228, 0.753);
+}
+
 .text-myred {
   color: #F15625;
 }
