@@ -2,9 +2,9 @@
 
 # Directory-of-Musicians (HTML CSS Capstone project)
 
-The requirements for this project is to create 3 pages, a main page, a search results page and a details page. I created 5 details pages having different content. This project utilizes Bootstrap classes heavily and custom classes but created in the style of Bootstrap so I can use them again for newer projects.
+The requirements for this project are to create 3 pages, the main page, a search results page, and a details page. I created 5 details pages having different content. This project utilizes Bootstrap classes heavily and custom classes but created in the style of Bootstrap so I can use them again for newer projects.
 
-I used 2 `.scss` files : one for general classes that I can use in any project and one for project specific classes.
+I used 2 `.scss` files: one for general classes that I can use in any project and one for project-specific classes.
 
 ### Screenshot
 
