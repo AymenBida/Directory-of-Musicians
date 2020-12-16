@@ -9,6 +9,10 @@ $my-blue : #1c95bd;
 $my-gray : rgb(112, 109, 126);
 $black-gradient: linear-gradient(transparent, black 99%);
 
+.ab-mb-3 {
+  margin-bottom: 1rem;
+}
+
 .bg-myred {
   background-color: $my-red;
 }
