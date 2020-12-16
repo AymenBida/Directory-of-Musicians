@@ -69,6 +69,10 @@ ul {
   color: transparent;
 }
 
+.ttext-white {
+  color: white;
+}
+
 .icon {
   height: 1.5em;
 }
