@@ -17,7 +17,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-myred px-2">
       <div class="container-fluid">
-        <a class="navbar-brand text-white fw-bold fs-4 d-flex" href="index.html">
+        <a class="navbar-brand text-white fw-bold fs-4 d-flex" href="../index.html">
           <img class="icon fx-2 px-2" src="assets/images/negative-logo.png" alt="">
           <h1 class="fs-4 mb-0">Directory of Musicians</h1>
         </a>
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end ww-100">
             <li class="nav-item px-2">
-              <a class="nav-link active text-white fw-bold hover-animate" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active text-white fw-bold hover-animate" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item px-2">
               <a class="nav-link text-white fw-bold hover-animate hover-animate" href="list.html">Search</a>
@@ -48,87 +48,67 @@
 
   <main>
     <div id="main-container-2" class="container-fluid bg-light">
-      <form action="list.html" id="search-form" class="container-fluid rounded p-5 mb-3" method="GET">
-        <div class="container">
-          <p class="fw-bold mb-2">Filter by name, country, instrument and gender:</p>
-          <div class="d-flex flex-wrap">
-            <div class="d-flex flex-column flex-fill ww-100 w-md-50 w-lg-25">
-              <label for="name">Name</label>
-              <input class="border border py-2 rrounded rrounded-md-start" id="name" type="text"
-                placeholder="Enter name here">
-            </div>
-            <div class="d-flex flex-column flex-fil ww-100 w-md-50 w-lg-25">
-              <label for="country">Country</label>
-              <input class="border border py-2 rrounded rrounded-md-end rrounded-lg-0" id="country" type="text"
-                placeholder="Enter country here">
-            </div>
-            <div class="d-flex flex-column flex-fill ww-100 w-md-50 w-lg-25">
-              <label for="instrument">Instrument</label>
-              <input class="border border py-2 rrounded rrounded-md-start rrounded-lg-0" id="instrument" type="text"
-                placeholder="Enter instrument here">
-            </div>
-            <div class="d-flex flex-column flex-fill ww-50 w-md-25 w-lg-12">
-              <label for="gender">Gender</label>
-              <select name="gender" class="border border py-2 h-42px rrounded-start rrounded-md-0" id="gender">
-                <option disabled selected value="">your choice</option>
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-              </select>
-            </div>
-            <div class="d-flex flex-column flex-fill ww-50 w-md-25 w-lg-12">
-              <p class="text-transparent mb-0">-</p>
-              <button type="submit"
-                class="rrounded-end border border-danger bg-myred ttext-white py-2 px-4">Search</button>
-            </div>
-          </div>
+      <div id="details-form" class="container rounded p-5 mb-3 bg-white shadow">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <h2 class="text-dark fw-bold mb-0">Aziza Mustafa Zadeh</h2>
+          <a href="#" class="btn btn-success ttext-white fw-bold mr-auto"><i class="fas fa-phone"></i> Call Now</a>
         </div>
-      </form>
-
-
-    </div>
-    <div id="search-results" class="container-fluid">
-      <div class="container-fluid py-4">
-        <h2 class="text-dark text-center">Search Results found 5 musician(s).</h2>
-        <div class="py-4 d-flex flex-wrap justify-content-center">
-          <div class="p-3 ww-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="aziza.html">
-              <div id="aziza" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="ttext-white fw-bold fs-2">Aziza Mustafa Zadeh</h3>
-              </div>
-            </a>
+        <div class="row">
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Country: <span class="fw-normal text-dark">Azerbaïdjan</span></p>
+            </div>
           </div>
-          <div class="p-3 ww-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="john.html">
-              <div id="john" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="ttext-white fw-bold fs-2">John Petrucci</h3>
-              </div>
-            </a>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Gender: <span class="fw-normal text-dark">Female</span></p>
+            </div>
           </div>
-          <div class="p-3 ww-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="mikael.html">
-              <div id="mikael" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="ttext-white fw-bold fs-2">Mikael Åkerfeldt</h3>
-              </div>
-            </a>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Instrument: <span class="fw-normal text-dark">Piano</span></p>
+            </div>
           </div>
-          <div class="p-3 ww-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="mike.html">
-              <div id="mike" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="ttext-white fw-bold fs-2">Mike Portnoy</h3>
-              </div>
-            </a>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Style(s): <span class="fw-normal text-dark">Jazz, Mugham</span>
+              </p>
+            </div>
           </div>
-          <div class="p-3 ww-100 w-md-50 w-lg-33">
-            <a class="no-deco" href="tigran.html">
-              <div id="tigran" class="bg-middle h-400px d-flex justify-content-center align-items-end p-3">
-                <h3 class="ttext-white fw-bold fs-2">Tigran Hamasyan</h3>
-              </div>
-            </a>
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Phone: <span class="fw-normal text-dark">123456789</span></p>
+            </div>
           </div>
-
+          <div class="col-12 col-md-6 p-1">
+            <div class="border border-secondary rounded d-flex justify-content-center align-items-center">
+              <p class="mb-0 py-2 fw-bold text-myred">Website: <span class="fw-normal text-dark"><a
+                    href="http://azizamustafazadeh.de/">azizamustafazadeh.de</a></span></p>
+            </div>
+          </div>
         </div>
       </div>
-
+      <div class="container">
+        <p class="mb-1 justify-text">Aziza Mustafa Zadeh (Azerbaijani: Əzizə Mustafazadə; born December 19, 1969) is an
+          Azerbaijani singer,
+          pianist, and composer who plays a fusion of jazz and mugam (a traditional improvisational style of Azerbaijan)
+          with classical and avant-garde influences.</p>
+        <p class="justify-text">Aziza was born in Baku to musical parents Vagif and Elza Mustafa Zadeh (née
+          Bandzeladze). Vagif was a
+          pianist and composer, famous for creating the mugam-jazz fusion in which his daughter now plays. Elza is a
+          classically trained singer from Georgia.</p>
+        <div class="d-flex">
+          <a class="fs-2 no-deco text-dark bg-lightgray p-5 flex-fill text-uppercase text-center"
+            href="https://en.wikipedia.org/wiki/Aziza_Mustafa_Zadeh">Click to see more details</a>
+        </div>
+        <div class="py-4">
+          <h2 class="text-center text-myred fw-bold mb-5"><i class="far fa-compass"></i> Map directions</h2>
+          <iframe class="d-block mx-auto mw-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.42999605992!2d49.71487499392489!3d40.39450797944242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku%2C%20Azerbaijan!5e0!3m2!1sen!2stn!4v1608025410344!5m2!1sen!2stn"
+            width="800" height="600" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -139,7 +119,7 @@
         <li class="mb-md-0 ww-100 w-md-45">
           <ul class="d-flex flex-column flex-md-row justify-content-around align-items-center">
             <li class="hover-animate mb-2 mb-md-0"><a class="no-deco ttext-white py-2 px-2 px-md-3 px-lg-4 hover-myred"
-                href="index.html">Home</a></li>
+                href="../index.html">Home</a></li>
             <li class="hover-animate mb-2 mb-md-0"><a class="no-deco ttext-white py-2 px-2 px-md-3 px-lg-4 hover-myred"
                 href="list.html">Search</a></li>
             <li class="hover-animate mb-2 mb-md-0"><a class="no-deco ttext-white py-2 px-2 px-md-3 px-lg-4 hover-myred"
@@ -148,7 +128,7 @@
                 href="#">More</a></li>
           </ul>
         </li>
-        <li><a class="no-deco ttext-white py-2 px-2 px-md-3 px-lg-4 d-none d-md-block w-md-10" href="index.html"><img
+        <li><a class="no-deco ttext-white py-2 px-2 px-md-3 px-lg-4 d-none d-md-block w-md-10" href="../index.html"><img
               class="big-icon" src="assets/images/black-logo.png" alt=""></a>
         </li>
         <li class="ww-100 w-md-45">
