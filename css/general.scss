@@ -46,7 +46,7 @@ $black-gradient: linear-gradient(transparent, black 99%);
 }
 
 .hover-myred:hover {
-  color: #f0a088 !important;
+  color: #f0a088;
 }
 
 .hover-shadow {
@@ -113,11 +113,11 @@ $black-gradient: linear-gradient(transparent, black 99%);
   }
 
   .w-md-50 {
-    width: 50% !important;
+    width: 50%;
   }
 
   .w-md-25 {
-    width: 25% !important;
+    width: 25%;
   }
 }
 
@@ -128,14 +128,14 @@ $black-gradient: linear-gradient(transparent, black 99%);
   }
 
   .w-lg-33 {
-    width: 33.333% !important;
+    width: 33.333%;
   }
 
   .w-lg-25 {
-    width: 25% !important;
+    width: 25%;
   }
 
   .w-lg-12 {
-    width: 12.5% !important;
+    width: 12.5%;
   }
 }
