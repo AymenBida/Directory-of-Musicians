@@ -118,6 +118,16 @@ ul {
   border-radius: 0.25rem;
 }
 
+.rrounded-start {
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.rrounded-end {
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
 @media (min-width: 768px) {
   .w-md-45 {
     width: 45%;
@@ -137,6 +147,9 @@ ul {
   .w-md-sub-110px {
     width: calc(100% - 110px);
   }
+  .rrounded-md-0 {
+    border-radius: 0;
+  }
   .rrounded-md-start {
     border-radius: 0;
     border-bottom-left-radius: 0.25rem;
@@ -150,6 +163,9 @@ ul {
 }
 
 @media (min-width: 1024px) {
+  .rrounded-lg-0 {
+    border-radius: 0;
+  }
   .square-200px {
     height: 300px;
     width: 300px;
