@@ -1,0 +1,48 @@
+$black-gradient: linear-gradient(transparent, rgba(0, 0, 0, 0.726) 99%);
+
+.lot-of-people {
+  background-image: url(../images/lot-of-people.jpg);
+}
+
+.contact {
+  background-image: url(../images/contact2.jpg);
+}
+
+.anytime {
+  background-image: url(../images/smartphone.jpg);
+}
+
+.main-container-2 {
+  padding: 5em 0;
+}
+
+.main-container {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)),
+    url(../images/background.png);
+  padding: 10em 0;
+}
+
+.search-form {
+  background-color: rgba(228, 228, 228, 0.753);
+}
+
+.aziza {
+  background-image: $black-gradient, url(../images/aziza.jpg);
+}
+
+.john {
+  background-image: $black-gradient, url(../images/john-p.jpg);
+}
+
+.mikael {
+  background-image: $black-gradient, url(../images/mikeal.jpg);
+}
+
+.mike {
+  background-image: $black-gradient, url(../images/mike.jpeg);
+}
+
+.tigran {
+  background-image: $black-gradient, url(../images/tigran.jpg);
+}
