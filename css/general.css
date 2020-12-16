@@ -34,7 +34,7 @@ ul {
 
 .hover-animate:hover {
   -webkit-transform: translate(0, -3px);
-  transform: translate(0, -3px);
+          transform: translate(0, -3px);
 }
 
 .hover-myred {
@@ -43,7 +43,7 @@ ul {
 }
 
 .hover-myred:hover {
-  color: #f0a088 !important;
+  color: #f0a088;
 }
 
 .hover-shadow {
@@ -53,7 +53,7 @@ ul {
 
 .hover-shadow:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
-  box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
+          box-shadow: rgba(0, 0, 0, 0.596) 1px 4px 4px;
   background-color: #ffffff23;
 }
 
@@ -102,21 +102,29 @@ ul {
   height: 400px;
 }
 
+.ww-50 {
+  width: 50%;
+}
+
+.ww-100 {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .w-md-45 {
     width: 45%;
   }
-
   .w-md-10 {
     width: 10%;
   }
-
   .w-md-50 {
-    width: 50% !important;
+    width: 50%;
   }
-
   .w-md-25 {
-    width: 25% !important;
+    width: 25%;
+  }
+  .w-md-110px {
+    width: 110px;
   }
 }
 
@@ -125,18 +133,14 @@ ul {
     height: 300px;
     width: 300px;
   }
-
   .w-lg-33 {
-    width: 33.333% !important;
+    width: 33.333%;
   }
-
   .w-lg-25 {
-    width: 25% !important;
+    width: 25%;
   }
-
   .w-lg-12 {
-    width: 12.5% !important;
+    width: 12.5%;
   }
 }
-
 /*# sourceMappingURL=general.css.map */

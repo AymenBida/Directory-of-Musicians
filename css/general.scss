@@ -103,6 +103,14 @@ $black-gradient: linear-gradient(transparent, black 99%);
   height: 400px;
 }
 
+.ww-50 {
+  width: 50%;
+}
+
+.ww-100 {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .w-md-45 {
     width: 45%;
@@ -118,6 +126,10 @@ $black-gradient: linear-gradient(transparent, black 99%);
 
   .w-md-25 {
     width: 25%;
+  }
+
+  .w-md-110px {
+    width: 110px;
   }
 }
 
