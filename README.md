@@ -46,6 +46,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org/) for their `README` [template](https://github.com/microverseinc/readme-template).
+- Design idea by Mathew Njuguna and others on Behance
 
 ## 📝 License
 
