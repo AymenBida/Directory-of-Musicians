@@ -102,12 +102,20 @@ ul {
   height: 400px;
 }
 
+.h-42px {
+  height: 42px;
+}
+
 .ww-50 {
   width: 50%;
 }
 
 .ww-100 {
   width: 100%;
+}
+
+.rrounded {
+  border-radius: 0.25rem;
 }
 
 @media (min-width: 768px) {
@@ -125,6 +133,19 @@ ul {
   }
   .w-md-110px {
     width: 110px;
+  }
+  .w-md-sub-110px {
+    width: calc(100% - 110px);
+  }
+  .rrounded-md-start {
+    border-radius: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+  }
+  .rrounded-md-end {
+    border-radius: 0;
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
   }
 }
 
