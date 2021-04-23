@@ -8,7 +8,7 @@ I used 2 `.scss` files: one for general classes that I can use in any project an
 
 ### Screenshot
 
-![screenshot](./assets/images/screenshot.jpg)
+![screenshot](./assets/images/screenshot.png)
 
 ## Built With
 
